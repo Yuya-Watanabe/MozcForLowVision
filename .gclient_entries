@@ -1,0 +1,11 @@
+entries = {
+  'src': 'http://mozc.googlecode.com/svn/trunk/src',
+  'src/third_party/breakpad': 'http://google-breakpad.googlecode.com/svn/trunk@1217',
+  'src/third_party/gmock': 'http://googlemock.googlecode.com/svn/trunk@425',
+  'src/third_party/gtest': 'http://googletest.googlecode.com/svn/trunk@645',
+  'src/third_party/gyp': 'http://gyp.googlecode.com/svn/trunk@1732',
+  'src/third_party/jsoncpp': 'http://svn.code.sf.net/p/jsoncpp/code/trunk/jsoncpp@274',
+  'src/third_party/protobuf': 'http://protobuf.googlecode.com/svn/trunk@462',
+  'src/third_party/wtl/files/include': 'http://svn.code.sf.net/p/wtl/code/trunk/wtl/include@459',
+  'src/third_party/zinnia/v0_04': 'http://svn.code.sf.net/p/zinnia/code@16',
+}

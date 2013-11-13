@@ -1,0 +1,402 @@
+// Copyright 2010-2013, Google Inc.
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions are
+// met:
+//
+//     * Redistributions of source code must retain the above copyright
+// notice, this list of conditions and the following disclaimer.
+//     * Redistributions in binary form must reproduce the above
+// copyright notice, this list of conditions and the following disclaimer
+// in the documentation and/or other materials provided with the
+// distribution.
+//     * Neither the name of Google Inc. nor the names of its
+// contributors may be used to endorse or promote products derived from
+// this software without specific prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+// "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+// LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+// A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+// OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+// LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+// DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+// THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+// (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+// OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+{
+  "appName": {
+    "message": "@APP_NAME_JA@",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "@APP_NAME_JA@は、変換の煩わしさを感じさせない思いどおりの日本語入力を提供します。",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "branding": {
+    "message": "@BRANDING@"
+  },
+  "appNameJPKeyboard": {
+    "message": "@APP_NAME_JA@（日本語キーボード用）"
+  },
+  "appNameUSKeyboard": {
+    "message": "@APP_NAME_JA@（USキーボード用）"
+  },
+  "compositionModeHiragana": {
+    "message": "ひらがな"
+  },
+  "compositionModeFullKatakana": {
+    "message": "全角カタカナ"
+  },
+  "compositionModeFullAscii": {
+    "message": "全角英数"
+  },
+  "compositionModeHalfKatakana": {
+    "message": "半角カタカナ"
+  },
+  "compositionModeHalfAscii": {
+    "message": "半角英数"
+  },
+  "compositionModeDirect": {
+    "message": "直接入力"
+  },
+  "configPunctuationMethod": {
+    "message": "句読点:"
+  },
+  "configPreeditMethod": {
+    "message": "ローマ字入力・かな入力:"
+  },
+  "configPreeditMethodRomaji": {
+    "message": "ローマ字入力"
+  },
+  "configPreeditMethodKana": {
+    "message": "かな入力"
+  },
+  "configSymbolMethod": {
+    "message": "記号:"
+  },
+  "configSpaceCharacterForm": {
+    "message": "スペースの入力:"
+  },
+  "configSpaceCharacterFormFollow": {
+    "message": "入力モードに従う"
+  },
+  "configSpaceCharacterFormFull": {
+    "message": "全角"
+  },
+  "configSpaceCharacterFormHalf": {
+    "message": "半角"
+  },
+  "configSelectionShortcut": {
+    "message": "候補選択ショートカット:"
+  },
+  "configSelectionShortcutNo": {
+    "message": "なし"
+  },
+  "configShiftKeyModeSwitch": {
+    "message": "シフトキーでの入力切替:"
+  },
+  "configShiftKeyModeSwitchOff": {
+    "message": "オフ"
+  },
+  "configShiftKeyModeSwitchAlphanumeric": {
+    "message": "英数字"
+  },
+  "configShiftKeyModeSwitchKatakana": {
+    "message": "カタカナ"
+  },
+  "configSessionKeymap": {
+    "message": "キー設定の選択:"
+  },
+  "configSessionKeymapAtok": {
+    "message": "ATOK"
+  },
+  "configSessionKeymapMsIme": {
+    "message": "MS-IME"
+  },
+  "configSessionKeymapKotoeri": {
+    "message": "ことえり"
+  },
+  "configSessionKeymapCustom": {
+    "message": "カスタム"
+  },
+  "configIncognitoMode": {
+    "message": "学習機能、入力履歴からのサジェスト機能、ユーザ辞書機能を無効にする"
+  },
+  "configUseAutoImeTurnOff": {
+    "message": "自動英数変換を有効にする"
+  },
+  "configUseHistorySuggest": {
+    "message": "入力履歴からのサジェスト自動表示を有効にする"
+  },
+  "configUseDictionarySuggest": {
+    "message": "システム辞書からのサジェスト自動表示を有効にする"
+  },
+  "configSuggestionsSize": {
+    "message": "サジェストの候補数:"
+  },
+  "configSettingsTitle": {
+    "message": "日本語入力の設定"
+  },
+  "configBasicsTitle": {
+    "message": "基本設定"
+  },
+  "configInputAssistanceTitle": {
+    "message": "入力補助"
+  },
+  "configSuggestTitle": {
+    "message": "サジェスト"
+  },
+  "configPrivacyTitle": {
+    "message": "プライバシー"
+  },
+  "configClearHistory": {
+    "message": "入力履歴の消去..."
+  },
+  "configClearHistoryTitle": {
+    "message": "入力履歴を消去する"
+  },
+  "configClearHistoryMessage": {
+    "message": "次のアイテムを消去:"
+  },
+  "configClearHistoryConversionHistory": {
+    "message": "変換履歴"
+  },
+  "configClearHistorySuggestionHistory": {
+    "message": "サジェスト用履歴"
+  },
+  "configClearHistoryOkButton": {
+    "message": "入力履歴を消去する"
+  },
+  "configClearHistoryCancelButton": {
+    "message": "キャンセル"
+  },
+  "configCreditsDescription": {
+    "message": "Copyright © 2013 Google Inc. All Rights Reserved."
+  },
+  "configOssCreditsDescription": {
+    "message": "本ソフトウェアは<a href=\"./credits_ja.html\">オープンソースソフトウェア</a>を利用しています。"
+  },
+  "configDialogCancel": {
+    "message": "キャンセル"
+  },
+  "configDialogOk": {
+    "message": "OK"
+  },
+  "configSyncConfigCancel": {
+    "message": "キャンセル"
+  },
+  "configSyncConfigOk": {
+    "message": "OK"
+  },
+  "configSyncStartSync": {
+    "message": "同期する..."
+  },
+  "configSyncStopSync": {
+    "message": "同期の解除"
+  },
+  "configSyncNotSyncedYet": {
+    "message": "同期されていません"
+  },
+  "configSyncLastSyncedTime": {
+    "message": "最終同期時刻: "
+  },
+  "configSyncWaiting": {
+    "message": "サーバの状態を確認しています.. この処理は最大2分かかります"
+  },
+  "configSyncDuringSync": {
+    "message": "同期中です"
+  },
+  "configSyncNoSync": {
+    "message": "同期機能：オフ"
+  },
+  "configSyncCustomization": {
+    "message": "詳細設定..."
+  },
+  "configSyncAdvancedSettings": {
+    "message": "同期の詳細設定"
+  },
+  "configSyncDescription": {
+    "message": "設定や同期用ユーザー辞書を、異なるコンピュータ間で安全に同期します。同期済みのデータは <a href=\"https://www.google.com/settings/dashboard\" target=\"_blank\">Google ダッシュボード</a> から削除できます。"
+  },
+  "configSyncTitle": {
+    "message": "同期"
+  },
+  "configSyncAdvancedSettingsMessage": {
+    "message": "同期するデータ タイプを選択"
+  },
+  "configUseConfigSync": {
+    "message": "設定"
+  },
+  "configUseUserDictionarySync": {
+    "message": "ユーザー辞書"
+  },
+  "configSyncAuthorizationFail": {
+    "message": "認証に失敗しました。"
+  },
+  "configSyncUserDictionaryNumEntryExceeded": {
+    "message": "単語数の上限を超えたため同期用辞書をセーブできません。"
+  },
+  "configSyncUserDictionaryByteSizeExceeded": {
+    "message": "ファイルサイズの上限を超えたため同期用辞書をセーブできません。"
+  },
+  "configSyncUserDictionaryNumDictionaryExceeded": {
+    "message": "同期用辞書の数が上限を超えたため辞書をセーブできません。"
+  },
+  "configSyncUnknownErrorFound": {
+    "message": "未知のエラーです。"
+  },
+  "configSyncAuthorizationError": {
+    "message": "認証失敗"
+  },
+  "configSyncDictionaryError": {
+    "message": "辞書同期エラー"
+  },
+  "configSyncUnknownError": {
+    "message": "未知の同期エラー"
+  },
+  "configDictionaryToolTitle": {
+    "message": "ユーザー辞書"
+  },
+  "configDictionaryToolDescription": {
+    "message": "よく使う単語をユーザー辞書に登録することができます。"
+  },
+  "configDictionaryToolButton": {
+    "message": "ユーザー辞書の管理..."
+  },
+  "dictionaryToolPageTitle": {
+    "message": "ユーザー辞書"
+  },
+  "dictionaryToolDictionaryListTitle": {
+    "message": "辞書一覧"
+  },
+  "dictionaryToolReadingTitle": {
+    "message": "よみ"
+  },
+  "dictionaryToolWordTitle": {
+    "message": "単語"
+  },
+  "dictionaryToolCategoryTitle": {
+    "message": "品詞"
+  },
+  "dictionaryToolCommentTitle": {
+    "message": "コメント"
+  },
+  "dictionaryToolExportButton": {
+    "message": "エクスポート"
+  },
+  "dictionaryToolImportButton": {
+    "message": "インポート"
+  },
+  "dictionaryToolDoneButton": {
+    "message": "完了"
+  },
+  "dictionaryToolReadingNewInput": {
+    "message": "新しい単語のよみ"
+  },
+  "dictionaryToolWordNewInput": {
+    "message": "新しい単語"
+  },
+  "dictionaryToolCommentNewInput": {
+    "message": "コメント"
+  },
+  "dictionaryToolDeleteDictionaryTitle": {
+    "message": "辞書を削除"
+  },
+  "dictionaryToolDictionaryName": {
+    "message": "辞書名"
+  },
+  "dictionaryToolNewDictionaryNamePlaceholder": {
+    "message": "新規辞書"
+  },
+  "dictionaryToolSyncableDictionaryName": {
+    "message": "同期用辞書"
+  },
+  "dictionaryToolDeleteDictionaryConfirm": {
+    "message": "$dictName$を削除しますか?",
+    "placeholders": {
+      "dictName": {
+        "content": "$1",
+        "example": "Dictionary Name"
+      }
+    }
+  },
+  "dictionaryToolStatuErrorGeneral": {
+    "message": "操作を実行できません。"
+  },
+  "dictionaryToolStatuErrorFileNotFound": {
+    "message": "ファイルを開けません。"
+  },
+  "dictionaryToolStatuErrorInvalidFileFormat": {
+    "message": "ファイルを読み込めません。"
+  },
+  "dictionaryToolStatuErrorEmptyFile": {
+    "message": "空のファイルです。"
+  },
+  "dictionaryToolStatuErrorFileSizeLimitExceeded": {
+    "message": "ファイルが大きすぎます。"
+  },
+  "dictionaryToolStatuErrorDictionarySizeLimitExceeded": {
+    "message": "これ以上辞書を作成できません。"
+  },
+  "dictionaryToolStatuErrorEntrySizeLimitExceeded": {
+    "message": "一つの辞書に含む単語が多すぎます。"
+  },
+  "dictionaryToolStatuErrorDictionaryNameEmpty": {
+    "message": "辞書名を入力してください。"
+  },
+  "dictionaryToolStatuErrorDictionaryNameTooLong": {
+    "message": "辞書名が長すぎます。"
+  },
+  "dictionaryToolStatuErrorDictionaryNameContainsInvalidCharacter": {
+    "message": "辞書名に使用できない文字が含まれています。"
+  },
+  "dictionaryToolStatuErrorDictionaryNameDuplicated": {
+    "message": "その辞書名はすでに使われています。"
+  },
+  "dictionaryToolStatuErrorReadingEmpty": {
+    "message": "よみを入力してください。"
+  },
+  "dictionaryToolStatuErrorReadingTooLong": {
+    "message": "よみが長すぎます。"
+  },
+  "dictionaryToolStatuErrorReadingContainsInvalidCharacter": {
+    "message": "よみに使用できない文字が含まれています。"
+  },
+  "dictionaryToolStatuErrorWordEmpty": {
+    "message": "単語を入力してください。"
+  },
+  "dictionaryToolStatuErrorWordTooLong": {
+    "message": "単語が長すぎます。"
+  },
+  "dictionaryToolStatuErrorWordContainsInvalidCharacter": {
+    "message": "単語に使用できない文字が含まれています。"
+  },
+  "dictionaryToolStatuErrorImportTooManyWords": {
+    "message": "インポートする単語が多すぎます。"
+  },
+  "dictionaryToolStatuErrorImportInvalidEntries": {
+    "message": "インポートできない単語がありました。"
+  },
+  "dictionaryToolStatuErrorNoUndoHistory": {
+    "message": "これ以上操作を取り消せません。"
+  },
+  "dictionaryImportTitle": {
+    "message": "インポート先辞書の選択"
+  },
+  "dictionaryImportNewDictionary": {
+    "message": "新規辞書にインポート"
+  },
+  "dictionaryImportCancel": {
+    "message": "キャンセル"
+  },
+  "dictionaryImportOk": {
+    "message": "OK"
+  },
+  "configUploadUsageStats": {
+    "message": "使用統計データや障害レポートを Google に自動送信する"
+  }
+}
