@@ -3,6 +3,8 @@ MozcForLowVisiion
 This is a project intended at developing mozc, an open source Japanese IME,
 with braille typewriter mode
 which helps visually impaired persons to input Kana letters with qwerty keyboard.
+We just have finished preparing Makefile for non-stop building on Windows 7 and Visual Studio 2012.
+No progress yet but everythig is going to be all right!
 
 Quick Start
 ------------
