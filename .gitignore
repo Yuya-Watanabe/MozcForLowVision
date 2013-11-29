@@ -1,0 +1,9 @@
+src/build_tools/__init__.pyc
+src/build_tools/android_util.pyc
+src/build_tools/mozc_version.pyc
+src/build_tools/test_tools/__init__.pyc
+src/build_tools/test_tools/test_launcher.pyc
+src/build_tools/util.pyc
+src/mozc_version.txt
+src/out/
+
