@@ -31,11 +31,11 @@ Quick Start
    It syncs your source code to Google Code subversion repository,
    prepare build tools including gyp files and ninja builder,
    build mozc with Visual Studio 2012 command line tools,
-   copy binary files to proper directory including system folders,
+   copy binary files to proper directories including system folders,
    and register IME DLL (mozc_ja.ime) to the system.
 
 6) You may type 'make uninstall; make install' because
-   IME DLL (mozc_ja.ime) is locked by IMM (imput method manager).
+   IME DLL (mozc_ja.ime) is locked by IMM (input method manager).
    It depends the state of your 'Language Bar' and the mode of IME.
 
 7) Feel free to contact me (<a href="http://twitter.com/TakashiSasaki">@TakashiSasaki</a> on twitter) when you need
