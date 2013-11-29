@@ -10,4 +10,7 @@ src/build_tools/code_generator_util.pyc
 src/dictionary/__init__.pyc
 src/dictionary/pos_util.pyc
 src/mozc_build_tools/
+src/rewriter/__init__.pyc
+src/rewriter/embedded_dictionary_compiler.pyc
+
 

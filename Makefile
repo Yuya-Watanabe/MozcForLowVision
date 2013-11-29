@@ -1,3 +1,6 @@
+build:
+	-cmd.exe /C build_mozc.bat build -c Release package
+
 build_tools:
 	-cmd.exe /C build_mozc.bat build_tools -c Release
 
