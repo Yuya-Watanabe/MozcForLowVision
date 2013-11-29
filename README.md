@@ -33,8 +33,9 @@ Quick Start
    IME DLL (mozc_ja.ime) is locked by IMM (imput method manager).
    It depends the state of your 'Language Bar' and the mode of IME.
 
-7) Feel free to contact me (@TakashiSasaki on twitter) when you need
+7) Feel free to contact me (<a href="http://twitter.com/TakashiSasaki">@TakashiSasaki</a> on twitter) when you need
    any assistance. Don't hesitate!
+   <img src="mozc.png"/>
 
 Details
 --------
