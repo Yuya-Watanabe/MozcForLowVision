@@ -1,5 +1,8 @@
 MozcForLowVisiion
 =================
+This is a project intended at developing mozc, an open source Japanese IME,
+with braille typewriter mode
+which helps visually impaired persons to input Kana letters with qwerty keyboard.
 
 Quick Start
 ------------
@@ -7,7 +10,7 @@ Quick Start
    and Windows 7 SDK.
    Other versions may work but I haven't confirmed it.
 
-1) Install cygwin http://www.cygwin.com/ .
+1) Install cygwin http://www.cygwin.com/
    Don't forget to install git, subversion (aka svn), 
    python and GNU make packages.
 
