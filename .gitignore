@@ -6,4 +6,8 @@ src/build_tools/test_tools/test_launcher.pyc
 src/build_tools/util.pyc
 src/mozc_version.txt
 src/out/
+src/build_tools/code_generator_util.pyc
+src/dictionary/__init__.pyc
+src/dictionary/pos_util.pyc
+src/mozc_build_tools/
 
