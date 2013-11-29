@@ -35,6 +35,7 @@ Quick Start
 
 7) Feel free to contact me (@TakashiSasaki on twitter) when you need
    any assistance. Don't hesitate!
+   <img src="mozc.png"/>
 
 Details
 --------
