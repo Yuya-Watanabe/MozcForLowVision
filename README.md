@@ -1,5 +1,43 @@
 MozcForLowVisiion
 =================
+
+Quick Start
+------------
+0) Download and install Visual Studio 2012 Professional 
+   and Windows 7 SDK.
+   Other versions may work but I haven't confirmed it.
+
+1) Install cygwin http://www.cygwin.com/ .
+   Don't forget to install git, subversion (aka svn), 
+   python and GNU make packages.
+
+2) Install Python 2.7 for Windows.
+   http://www.python.org/download/releases/2.7.6/ 
+   Python can coexist with other versions.
+
+3) Clone this repository to your PC.
+   We'll refer to the directory as REPO.
+
+4) Open cygwin terminal and cd to REPO.
+   In my PC, I type
+   cd /cygdrive/c/Users/sasaki/Documents/Github/MozcForLowVision .
+
+5) Make it. Just type 'make'
+   It syncs your source code to Google Code subversion repository,
+   prepare build tools including gyp files and ninja builder,
+   build mozc with Visual Studio 2012 command line tools,
+   copy binary files to proper directory including system folders,
+   and register IME DLL (mozc_ja.ime) to the system.
+
+6) You may type 'make uninstall; make install' because
+   IME DLL (mozc_ja.ime) is locked by IMM (imput method manager).
+   It depends the state of your 'Language Bar' and the mode of IME.
+
+7) Feel free to contact me (@TakashiSasaki on twitter) when you need
+   any assistance. Don't hesitate!
+
+Details
+--------
 Build instruction is at https://code.google.com/p/mozc/wiki/WindowsBuildInstructions .
 
 You don't need to download depot_tools.zip and extract depot_tools directry

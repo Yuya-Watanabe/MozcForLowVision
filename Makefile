@@ -1,6 +1,9 @@
-.PHONY: all build build_tools gyp sync install
+.PHONY: all clean sync gyp build_tools uninstall install
 
-all: sync build_tools build uninstall install
+all: uninstall clean sync gyp build_tools build uninstall install
+
+clean:
+	git clean -fdX	
 
 build:
 	-cmd.exe /C build_mozc.bat build -c Release package
@@ -31,5 +34,5 @@ install:
 	$(target_dir_32)/mozc_broker32.exe --mode=register_ime
 
 uninstall:
-	$(target_dir_32)/mozc_broker32.exe --mode=unregister_ime
+	-$(target_dir_32)/mozc_broker32.exe --mode=unregister_ime
 
