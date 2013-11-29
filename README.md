@@ -1,4 +1,4 @@
-MozcForLowVisiion
+MozcForLowVision
 =================
 This is a project intended at developing mozc, an open source Japanese IME,
 with braille typewriter mode
