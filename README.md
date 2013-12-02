@@ -42,6 +42,12 @@ Quick Start
    any assistance. Don't hesitate!
    <img src="mozc.png"/>
 
+8) When you are unsure which kind of IME you are using, Google Japanese IME or Mozc, 
+type "ba-jyonn" and try to convert it.
+   <img src="GoogleImeVersion.png"/>
+   <img src="MozcVersion.png"/>
+
+
 Details
 --------
 Build instruction is at https://code.google.com/p/mozc/wiki/WindowsBuildInstructions .
