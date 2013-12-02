@@ -43,9 +43,14 @@ Quick Start
    <img src="mozc.png"/>
 
 8) When you are unsure which kind of IME you are using, Google Japanese IME or Mozc, 
-type "ba-jyonn" and try to convert it.
-   <img src="GoogleImeVersion.png"/>
+type "ba-jyonn" and try to convert it. When mozc is active and ready to convert 
+phonetic input into ideographic characters, you see 'Mozc-1.12.1599.100' or something.
+
    <img src="MozcVersion.png"/>
+   
+   If Google Japanese IME is active, you see 'GoogleJapaneseInput-1.8.1310.0' or something.
+
+   <img src="GoogleImeVersion.png"/>
 
 
 Details
