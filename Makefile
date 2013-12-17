@@ -5,10 +5,10 @@ all: uninstall clean sync gyp build_tools-release build-release uninstall instal
 clean:
 	git clean -fdX	
 
-build-release:
+build-release: build_tools-release
 	-cmd.exe /C build_mozc.bat build -c Release package
 
-build-debug:
+build-debug: build_tools-debug
 	-cmd.exe /C build_mozc.bat build -c Debug package
 
 build_tools-release:
@@ -29,23 +29,23 @@ target_dir_64=/cygdrive/c/Program\ Files/mozc
 
 install-release: 
 	-mkdir $(target_dir_32)
-	-cp src/out/Release/mozc_broker32.exe $(target_dir_32)
-	-cp src/out/Release/mozc_cache_service.exe $(target_dir_32)
-	-cp src/out/Release/mozc_renderer.exe $(target_dir_32)
-	-cp src/out/Release/mozc_server.exe $(target_dir_32)
-	-cp src/out/Release/mozc_tool.exe $(target_dir_32)
-	-cp src/out/Release/mozc_ja.ime /cygdrive/c/Windows/System32/
+	cp src/out/Release/mozc_broker32.exe $(target_dir_32)
+	cp src/out/Release/mozc_cache_service.exe $(target_dir_32)
+	cp src/out/Release/mozc_renderer.exe $(target_dir_32)
+	cp src/out/Release/mozc_server.exe $(target_dir_32)
+	cp src/out/Release/mozc_tool.exe $(target_dir_32)
+	cp src/out/Release/mozc_ja.ime /cygdrive/c/Windows/System32/
 	ls $(target_dir_32)
 	$(target_dir_32)/mozc_broker32.exe --mode=register_ime
 
 install-debug: 
 	-mkdir $(target_dir_32)
-	-cp src/out/Debug/mozc_broker32.exe $(target_dir_32)
-	-cp src/out/Debug/mozc_cache_service.exe $(target_dir_32)
-	-cp src/out/Debug/mozc_renderer.exe $(target_dir_32)
-	-cp src/out/Debug/mozc_server.exe $(target_dir_32)
-	-cp src/out/Debug/mozc_tool.exe $(target_dir_32)
-	-cp src/out/Debug/mozc_ja.ime /cygdrive/c/Windows/System32/
+	cp src/out/Debug/mozc_broker32.exe $(target_dir_32)
+	cp src/out/Debug/mozc_cache_service.exe $(target_dir_32)
+	cp src/out/Debug/mozc_renderer.exe $(target_dir_32)
+	cp src/out/Debug/mozc_server.exe $(target_dir_32)
+	cp src/out/Debug/mozc_tool.exe $(target_dir_32)
+	cp src/out/Debug/mozc_ja.ime /cygdrive/c/Windows/System32/
 	ls $(target_dir_32)
 	$(target_dir_32)/mozc_broker32.exe --mode=register_ime
 
