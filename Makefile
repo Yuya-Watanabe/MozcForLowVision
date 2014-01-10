@@ -1,5 +1,7 @@
 .PHONY: all clean sync gyp build_tools build uninstall install
 
+quick: uninstall build-release uninstall install-release
+
 all: uninstall clean sync gyp build_tools-release build-release uninstall install-release
 
 clean:
