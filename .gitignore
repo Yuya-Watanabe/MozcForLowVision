@@ -14,9 +14,22 @@ src/rewriter/__init__.pyc
 src/rewriter/embedded_dictionary_compiler.pyc
 src/Debug/
 src/win32/ime/RC*
+src/win32/Debug
 src/*.sdf
 src/*.suo
 src/*.vcxproj
 src/*.vcxproj.filters
+src/*.opensdf
+src/*.user
+src/*.sln
+src/win32/*.sdf
+src/win32/*.suo
+src/win32/*.vcxproj
+src/win32/*.vcxproj.filters
+src/win32/*.opensdf
+src/win32/*.user
+src/win32/*.sln
+src/win32/broker/RCa01152
+src/win32/tip/RCa01152
 
 
